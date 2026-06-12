@@ -1,6 +1,12 @@
-def main():
-    print("Hello from project-a!")
+import uvicorn
+from fastapi import FastAPI
+from endpoints.router_a import router as router_a
 
 
-if __name__ == "__main__":
-    main()
+app = FastAPI()
+
+app.include_router(router_a)
+
+
+def start() -> None:
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
