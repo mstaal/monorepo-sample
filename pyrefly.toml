@@ -1,6 +1,6 @@
 search-path = [
-    "./lib/lib-x",
-    "./lib/lib-y",
+    "./libs/lib_x",
+    "./libs/lib_y",
     "./projects/project_a",
     "./projects/project_b",
 ]
