@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "name": "project-root",
+      "path": "."
+    },
+    {
+      "name": "project-a",
+      "path": "projects/project_a"
+    },
+    {
+      "name": "project-b",
+      "path": "projects/project_b"
+    },
+    {
+      "name": "lib-x",
+      "path": "libs/lib_x"
+    },
+    {
+      "name": "lib-y",
+      "path": "libs/lib_y"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "lib": true,
+      "projects": true,
+      "experiments": true
+    }
+  }
+}

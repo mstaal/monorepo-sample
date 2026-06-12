@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "project-root",
+      "path": "."
+    },
+  ],
+  "settings": {
+    "files.exclude": {
+      "lib": true,
+      "projects": true,
+      "experiments": true
+    }
+  }
+}
