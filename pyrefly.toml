@@ -1,6 +1,0 @@
-search-path = [
-    "./libs/lib_x",
-    "./libs/lib_y",
-    "./projects/project_a",
-    "./projects/project_b",
-]
